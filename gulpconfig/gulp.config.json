@@ -1,0 +1,21 @@
+{
+  "name": "TS-Demo",
+  "icon": "https://cdn.rawgit.com/ferventcoder/chocolatey-packages/02c21bebe5abb495a56747cbb9b4b5415c933fc0/icons/typescript.png", 
+  "production": false,
+
+  "paths": {
+    "vendor":{
+      "bootstrap": "node_modules/bootstrap-sass/assets/stylesheets/**/*",
+      "zone": "node_modules/zone.js/dist/zone.js"
+    },
+    "src" : {
+      "ts"  : "./src/ts",
+      "sass": "./src/sass"
+    },
+    "dist": {
+      "js"  : "./dist/js",
+      "css" : "./dist/css",
+      "html": "./html/**/*.html"
+    }
+  }
+}
