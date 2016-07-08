@@ -19,3 +19,4 @@ Take a look at gulp.classes.js if you would like to see how the piping is setup.
 ======
 I wrote my own little wrapper functions around gulp tasks to keep the gulpfile.js cleaner.
 If you need to add or remove packages from the gulp setup do so in the `gulpconfig/gulp.classes.js`.
+`src` and `dest` paths can be configured from `gulpconfig/gulp.config.json`
