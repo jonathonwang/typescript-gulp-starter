@@ -8,7 +8,7 @@
 `typings install`
 
 #### Gulp
-`gulp` Runs default fulp command.
+`gulp` Runs default gulp command.
 
 `gulp watch` Watches for changes on sass and ts files.
 
